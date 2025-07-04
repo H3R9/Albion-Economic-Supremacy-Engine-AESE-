@@ -1,2 +1,81 @@
-# Albion-Economic-Supremacy-Engine-AESE-
-Albion Economic Supremacy Engine (AESE) O AESE é um sistema integrado de apoio à decisão, projetado para analisar e dominar a economia de Albion Online.  Este projeto nasceu da necessidade de automatizar a complexa análise económica necessária para alcançar a riqueza no jogo.
+Albion Economic Supremacy Engine (AESE)
+O AESE é um sistema integrado de apoio à decisão, projetado para analisar e dominar a economia de Albion Online.
+
+Este projeto nasceu da necessidade de automatizar a complexa análise económica necessária para alcançar a riqueza no jogo. Em vez de depender de planilhas complexas e cálculos manuais demorados, o AESE atua como um "mestre de planilhas numa caixa", identificando as atividades económicas mais lucrativas em tempo real e fornecendo conselhos estratégicos para guiar o crescimento do seu império financeiro.
+
+🚀 Filosofia Central
+A filosofia do AESE baseia-se no princípio de que o lucro máximo é derivado do encadeamento estratégico de múltiplas atividades económicas. A ferramenta modela e otimiza cadeias de valor inteiras: desde a aquisição de matérias-primas, passando pelo refino e fabrico com eficiência de foco, até à venda final nos mercados mais lucrativos, incluindo o Mercado Negro de alto risco e alta recompensa.
+
+O objetivo não é ser apenas uma calculadora, mas sim um conselheiro financeiro e estratégico que democratiza o acesso a táticas económicas de ponta.
+
+✨ Funcionalidades Principais
+O AESE é composto por uma suíte de módulos interligados que fornecem uma análise 360° da economia do jogo:
+
+📈 Calculadora de Lucratividade:
+
+Refino & Fabrico: Calcula o lucro líquido e a métrica crucial de Prata por Ponto de Foco para todas as atividades de produção.
+
+Arbitragem & Flipping: Varre todos os mercados (incluindo o Mercado Negro) em busca de discrepâncias de preços para lucros rápidos.
+
+🛡️ Otimizador de Logística:
+
+Análise de Risco: Calcula uma pontuação de risco dinâmica (1-100) para rotas de transporte perigosas, considerando a hora do servidor e as "Janelas de Segurança" do Assalto de Bandidos.
+
+🏦 Gestão Empresarial:
+
+Análise de ROI: Foca-se em investimentos de longo prazo, como trabalhadores, e calcula o Retorno sobre o Investimento (ROI) em dias, evitando más decisões financeiras.
+
+🧠 Motor de Inteligência Estratégica:
+
+Conselheiro de Riqueza: Fornece recomendações de investimento personalizadas com base no seu capital disponível (semente, crescimento ou empresarial).
+
+Feed de Inteligência Acionável: A principal saída do AESE. Uma lista classificada de ações simples e diretas para maximizar os seus lucros imediatamente.
+
+🛠️ Como Funciona
+Coleta de Dados: O AESE conecta-se à API do Albion Online Data Project para obter dados de preços em tempo real de todos os mercados.
+
+Cache Inteligente: Os dados são armazenados localmente num cache (SQLite) para minimizar as chamadas à API e acelerar as análises subsequentes.
+
+Análise Multicamadas: Os dados são processados pelos módulos de cálculo de lucro, risco e ROI.
+
+Síntese Estratégica: Os resultados são analisados pelos módulos de recomendação e inteligência.
+
+Apresentação Clara: O utilizador recebe um painel de controlo limpo no terminal, com as ações mais importantes e conselhos estratégicos.
+
+🏁 Como Começar
+Requisitos
+Python 3.7 ou superior
+
+Bibliotecas: requests, pandas
+
+Passos
+Clone o repositório:
+
+git clone https://github.com/SEU-NOME-DE-UTILIZADOR/AESE.git
+cd AESE
+
+(Recomendado) Crie e ative um ambiente virtual:
+
+# Windows
+python -m venv venv
+venv\Scripts\activate
+
+# macOS / Linux
+python3 -m venv venv
+source venv/bin/activate
+
+Instale as dependências:
+
+pip install -r requirements.txt
+
+Execute o AESE:
+
+python main.py
+
+O programa irá guiá-lo, pedindo o servidor, o seu capital e o número de personagens alternativos.
+
+📜 Disclaimer
+O Albion Economic Supremacy Engine é uma ferramenta de análise e apoio à decisão. Ele NÃO interage diretamente com o cliente do jogo, não lê a memória nem automatiza qualquer ação dentro do jogo. O seu uso está em conformidade com os Termos de Serviço do Albion Online, pois apenas consome dados de uma API pública.
+
+Licença
+Este projeto está licenciado sob a Licença MIT. Veja o ficheiro LICENSE para mais detalhes.
